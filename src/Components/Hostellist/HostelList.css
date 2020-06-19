@@ -1,0 +1,47 @@
+ .hostellist{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://8ut3vnmqb148491id57v2rl2-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Art-Hole-best-hostel-in-Prague.jpg');
+    min-height:100vh;
+    opacity: 0.8;
+ }
+.hostel{
+    background-color: whitesmoke;
+    color:black;
+    position: absolute;
+    top:30%;
+    margin-left:30%;
+    margin-right: 30%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+@media only screen and (max-width:700px){
+    .hostel{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+.hostel .hh{
+    font-size: 50px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hostel hr{
+    width: 70px;
+    position: relative;
+    left: 40%;
+
+}
+.box >input{
+    width: auto;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 10px;
+}
